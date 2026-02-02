@@ -50,5 +50,72 @@
         </tbody>
     </table>
 </center>
+
+    <form method="POST" action="processar.php">
+<fieldset>
+    <legend>Dados do seu Time</legend>
+    
+    <label for="time">Qual seu time:</label>
+    <input type="text" id="time" name="time" required>
+    
+    <br>
+    <br>
+    
+    <label for="mundial">Seu time tem mundial:</label>
+    <input type="text" id="mundial" name="mundial" required>
+    
+    <br>
+    <br>
+    
+    
+    <label for="titulos">Quantos títulos brasileiros seu time possui:</label>
+    <input type="number" id="titulos" name="titulos" min="0" max="100">
+    
+    <br>
+    <br>
+    
+    <label for="comentário">Deixe seu comentário:</label>
+    <input type="text" id="comentário" name="comentário">
+    
+    
+</fieldset>
+
+<br>
+<br>
+<br>
+
+<fieldset>
+    <legend>Estou Feliz</legend>
+    <form>
+    <input type="checkbox" name="feliz"> Sou Feliz
+    
+    <input type="checkbox" name="nfeliz"> Não sou Feliz
+    
+    <input type="checkbox" name="alegre"> Sou muito alegre
+    
+</fieldset>
+
+<fieldset>
+    <legend>Pagamento</legend>
+    <form>
+        <input type="checkbox" name="cc"> Cartão Crédito
+        
+        <input type="checkbox" name="cd"> Cartão Débito
+        
+        <input type="checkbox" name="pix"> Pix
+        
+        <input type="checkbox" name="vb"> Vale Bombom
+    </fieldset>
+    
+    <br>
+    <br>
+    
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+    
+</form>
+</form>
+
+
 </body>
 </html>
